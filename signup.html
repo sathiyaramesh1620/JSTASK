@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="card ">
+                    <div class="card-header text-center">
+                    Create New Account
+                    </div>
+                    <div class="card-body">
+                        <form action="" class="myForm">
+                            <div class="form-group">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" class="form-control" required placeholder="UserName" name="username">
+                                <div class="invalid-feedback">Please fill out this field.........</div>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" class="form-control" required placeholder="Email" name="email">
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" class="form-control" required placeholder="Password" name="password">
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">
+                                    <input type="checkbox" required><small> I read and agree to Terms & Conditions</small>
+                                    <div class="invalid-feedback"> You must check the box.</div>
+                                </label>
+                            </div>
+                            <button class="btn btn-success" value="submit">SignUp</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
